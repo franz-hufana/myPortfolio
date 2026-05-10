@@ -14,6 +14,14 @@ body {
     font-family: "Consolas", "Courier New", monospace;
 }
 
-.homepage {
+.homepage, .introduction, .stats, .section,
+.project-card, .socials, .btn, .aspiring {
     box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    max-width: 1150px;
+    margin: auto;
+    padding: 40px 0;
 }
