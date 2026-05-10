@@ -19,9 +19,87 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.homepage {
     width: 95%;
     max-width: 1150px;
     margin: auto;
     padding: 40px 0;
+}
+
+.terminal {
+    color: #36d6b7;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.introduction h1 {
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+    line-height: 0.88;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+
+.introduction h1 span {
+    color: #ff5edb;
+}
+
+.underline{
+    width: 380px;
+    height: 2.5px;
+    background: linear-gradient(to right, #ff5edb, tranparent);
+    margine: 20px 0 35px;
+}
+
+.aspiring {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.aspiring span {
+    border: 1px solid #444;
+    padding: 9px 15px;
+    color: #cfcfcf;
+    background: #202020;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.aspiring i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.pink {
+    background: #ff5edb;
+}
+
+.purple {
+    background: #c77dff;
+}
+
+.blue {
+    background: #38bdf8;
+}
+
+.quote {
+    color: #777;
+    margin-bottom: 35px;
+}
+
+.description {
+    max-width: 1000px;
+    color:#999;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.description b {
+    color: #38bdf8;
 }
