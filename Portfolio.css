@@ -26,10 +26,34 @@ body {
     padding: 40px 0;
 }
 
+.terminal-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 40px;
+}
+
 .terminal {
     color: #36d6b7;
     font-size: 18px;
-    margin-bottom: 40px;
+}
+
+.terminal-caret {
+    width: 10px;
+    height: 20px;
+    background: #36d6b7;
+
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+
+    51%, 100% {
+        opacity: 0;
+    }
 }
 
 .introduction h1 {
@@ -44,11 +68,11 @@ body {
     color: #ff5edb;
 }
 
-.underline{
+.underline {
     width: 380px;
     height: 2.5px;
-    background: linear-gradient(to right, #ff5edb, tranparent);
-    margine: 20px 0 35px;
+    background: linear-gradient(to right, #ff5edb, transparent);
+    margin: 20px 0 35px;
 }
 
 .aspiring {
