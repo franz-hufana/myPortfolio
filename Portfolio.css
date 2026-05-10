@@ -119,3 +119,9 @@ body {
     padding: 13px 28px;
     transition: 0.3s;
 }
+
+.btn:hover, .btn.active {
+    background: #1296e8;
+    border-color: #1296e8;
+    color: white;
+}
