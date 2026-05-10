@@ -103,3 +103,19 @@ body {
 .description b {
     color: #38bdf8;
 }
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #ddd;
+    border: 1px solid #ddd;
+    padding: 13px 28px;
+    transition: 0.3s;
+}
