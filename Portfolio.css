@@ -238,3 +238,104 @@ body {
     color: white;
     border-color: #ff5edb;
 }
+
+.introduction, .stats,
+.section, .socials {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: 0.7s ease;
+}
+
+.introduction.show, .stats.show,
+.section.show, .socials.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 1024px) {
+  .homepage {
+    width: 90%;
+  }
+
+  .introduction h1 {
+    font-size: 65px;
+  }
+
+  .description {
+    max-width: 850px;
+  }
+
+}
+
+@media (max-width: 768px) {
+    .homepage {
+        width: 92%;
+        padding: 30px 0;
+    }
+
+    .terminal {
+        font-size: 15px;
+    }
+
+    .introduction h1 {
+        font-size: 48px;
+        letter-spacing: -2px;
+    }
+
+    .underline {
+        width: 260px;
+    }
+
+    .aspiring span {
+        width: 100%;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .socials {
+        flex-direction: column;
+    }
+
+    .socials a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .introduction h1 {
+        font-size: 38px;
+    }
+
+    .terminal {
+        font-size: 13px;
+    }
+
+    .description {
+        font-size: 15px;
+    } 
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .project-card {
+        padding: 20px;
+    }
+}
